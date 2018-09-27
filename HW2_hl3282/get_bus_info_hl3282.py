@@ -20,8 +20,6 @@ if not len(sys.argv) == 4:
     print("invalid number of arguments. Please input 3 arguments like: python get_bus_info_hl3282 <MTA_KEY> <BUS_LINE> <BUS_LINE.csv>")
     sys.exit()
 mtaurl="http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=%s&VehicleMonitoringDetailLevel=calls&LineRef=%s"%(apikey,busline)
-print (mtaurl)
-
 
 response = urllib.urlopen(mtaurl)
 data = response.read().decode("utf-8")

@@ -20,7 +20,6 @@ if not len(sys.argv) == 3:
     sys.exit()
 mtaurl="http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=%s&VehicleMonitoringDetailLevel=calls&LineRef=%s"%(apikey,busline)
 
-print(mtaurl)
 response = urllib.urlopen(mtaurl)
 data = response.read().decode("utf-8")
 dataDict = json.loads(data)
