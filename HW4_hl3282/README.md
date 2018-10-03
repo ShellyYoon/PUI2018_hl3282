@@ -10,5 +10,4 @@ link - https://github.com/Hancylee525/PUI2018_hl3282/blob/master/HW4_hl3282/Assi
 ## Assignment 3: Finish z-test lab and turn it in as a notebook .
 link - https://github.com/Hancylee525/PUI2018_hl3282/blob/master/HW4_hl3282/assignment3_hl3282.ipynb
 
-Contribution:
-see in each notebook
+## Contribution: see each notebook
